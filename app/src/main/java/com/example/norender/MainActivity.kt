@@ -36,9 +36,8 @@ class MainActivity : AppCompatActivity() {
 
         }
         android.setOnClickListener(){
-            intent = Intent(Intent.ACTION_VIEW)
-            intent.setData(Uri.parse("https://www.android.com/"))
-            startActivity(intent)
+            Intent = Uri.parse("http://www.android.com").let { webpage ->
+                Intent(Intent.ACTION_VIEW, webpage)
 
         }
         drible.setOnClickListener(){
