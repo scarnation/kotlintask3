@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         facebook.setOnClickListener(){
             intent = Intent(Intent.ACTION_VIEW)
-            intent.setData(Uri.parse("https://www.facebook.com/"))
+            intent.setData(Uri.parse(""))
             startActivity(intent)
 
         }
@@ -31,13 +31,13 @@ class MainActivity : AppCompatActivity() {
         }
         imageButton8.setOnClickListener(){
             intent = Intent(Intent.ACTION_VIEW)
-            intent.setData(Uri.parse("https://www.instagram.com/"))
+            intent.setData(Uri.parse("http://instagram.com/_u/{USERNAME}/"))
             startActivity(intent)
 
         }
         android.setOnClickListener(){
             intent = Intent(Intent.ACTION_VIEW)
-            intent.setData(Uri.parse("https://www.android.com/"))
+            intent.setData(Uri.parse("https://developers.android.com/"))
             startActivity(intent)
 
         }
@@ -61,13 +61,13 @@ class MainActivity : AppCompatActivity() {
         }
         play.setOnClickListener(){
             intent = Intent(Intent.ACTION_VIEW)
-            intent.setData(Uri.parse("https://www.googleplay.com/"))
+            intent.setData(Uri.parse("http://play.google.com/store/apps/details?id=<package_name>"))
             startActivity(intent)
 
         }
         link.setOnClickListener(){
             intent = Intent(Intent.ACTION_VIEW)
-            intent.setData(Uri.parse("https://www.linkedin.com/"))
+            intent.setData(Uri.parse(" www.linkedin.com/in"))
             startActivity(intent)
 
         }
@@ -97,7 +97,7 @@ class MainActivity : AppCompatActivity() {
         }
         whatsapp.setOnClickListener(){
             intent = Intent(Intent.ACTION_VIEW)
-            intent.setData(Uri.parse("https://www.whatsapp.com/"))
+            intent.setData(Uri.parse("https://wa.me/15551234567"))
             startActivity(intent)
 
         }
