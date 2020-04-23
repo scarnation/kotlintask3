@@ -58,8 +58,8 @@
 
     <RelativeLayout
         android:id="@+id/gridLayout"
-        android:layout_width="430dp"
-        android:layout_height="544dp"
+        android:layout_width="427dp"
+        android:layout_height="459dp"
         android:addStatesFromChildren="false"
         android:background="#F37C7C"
         app:layout_constraintBottom_toBottomOf="parent"
